@@ -9,7 +9,7 @@ const apartmentSchema = new mongoose.Schema({
   reference: {
     // reference number of the apartment
     type: Number,
-    required: true,
+    required: false,
     unique: true,
   },
   price: {

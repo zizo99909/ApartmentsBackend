@@ -5,7 +5,7 @@ import { generateUniqueReference } from "../utils/generateReference";
 export const getAllApartments = async (req: Request, res: Response) => {
   try {
     //const { search } = req.query;
-    const query: any = {};
+    const query = {};
 
     // if (search) {
     //   query.$or = [
